@@ -13,6 +13,8 @@
 		2C8E9B2725E3EAA1003E6A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E9B2525E3EAA1003E6A6C /* Main.storyboard */; };
 		2C8E9B2925E3EAA3003E6A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E9B2825E3EAA3003E6A6C /* Assets.xcassets */; };
 		2C8E9B2C25E3EAA3003E6A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E9B2A25E3EAA3003E6A6C /* LaunchScreen.storyboard */; };
+		2C8E9B3625E3EB26003E6A6C /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E9B3425E3EB26003E6A6C /* SimpleTableViewCell.swift */; };
+		2C8E9B3725E3EB26003E6A6C /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8E9B3525E3EB26003E6A6C /* SimpleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C8E9B2825E3EAA3003E6A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C8E9B2B25E3EAA3003E6A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8E9B2D25E3EAA3003E6A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8E9B3425E3EB26003E6A6C /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		2C8E9B3525E3EB26003E6A6C /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,21 @@
 				2C8E9B2125E3EAA1003E6A6C /* SceneDelegate.swift */,
 				2C8E9B2325E3EAA1003E6A6C /* ViewController.swift */,
 				2C8E9B2525E3EAA1003E6A6C /* Main.storyboard */,
+				2C8E9B3A25E3EB30003E6A6C /* View */,
 				2C8E9B2825E3EAA3003E6A6C /* Assets.xcassets */,
 				2C8E9B2A25E3EAA3003E6A6C /* LaunchScreen.storyboard */,
 				2C8E9B2D25E3EAA3003E6A6C /* Info.plist */,
 			);
 			path = CustomTableViewCellXib;
+			sourceTree = "<group>";
+		};
+		2C8E9B3A25E3EB30003E6A6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C8E9B3425E3EB26003E6A6C /* SimpleTableViewCell.swift */,
+				2C8E9B3525E3EB26003E6A6C /* SimpleTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8E9B2C25E3EAA3003E6A6C /* LaunchScreen.storyboard in Resources */,
+				2C8E9B3725E3EB26003E6A6C /* SimpleTableViewCell.xib in Resources */,
 				2C8E9B2925E3EAA3003E6A6C /* Assets.xcassets in Resources */,
 				2C8E9B2725E3EAA1003E6A6C /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8E9B2425E3EAA1003E6A6C /* ViewController.swift in Sources */,
+				2C8E9B3625E3EB26003E6A6C /* SimpleTableViewCell.swift in Sources */,
 				2C8E9B2025E3EAA1003E6A6C /* AppDelegate.swift in Sources */,
 				2C8E9B2225E3EAA1003E6A6C /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.SergeyGolenko.MyLocationsApp.CustomTableViewCellXib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.SergeyGolenko.MyLocationsApp.CustomTableViewCellXib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
